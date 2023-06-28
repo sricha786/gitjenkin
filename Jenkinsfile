@@ -15,6 +15,12 @@ pipeline {
           }
         }
 
+        stage('secondtest') {
+          steps {
+            echo 'secondtest'
+          }
+        }
+
       }
     }
 
